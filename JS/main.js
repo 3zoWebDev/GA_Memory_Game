@@ -46,7 +46,7 @@ let matchedCard = [];
 
 
 
-/*****************Declare function to hide all cards and shuffle them to change the postion for each card ********************************/
+/***************** Declare function to hide all cards and shuffle them to change the postion for each card ********************************/
 
 
 function HideCard(){
@@ -54,12 +54,11 @@ function HideCard(){
            $(i).hide();
        }
        shuffleCard();
-      // shCards();
  }
 
  /*************** Declare function to shuffle cards (imges) ******************************* */
 
-function shuffle(array) {
+function shuffle(array) {  //The Algorithm took from https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle
     let newPostion;
     let temp ;
 
@@ -70,7 +69,6 @@ function shuffle(array) {
     array[newPostion] = temp;
 
    }
-
     return array;
 }
 
@@ -155,10 +153,6 @@ function the_timer(){
             minute++;
             second = 0;
         }
-        if (minute == 60) {
-            hour++;
-            minute = 0;
-        }
     }, 1000);
  }
 
@@ -199,7 +193,7 @@ function congratulations(){
     //show congratulations modal
     modal.classList.add("show");
     //declare star rating variable
-    var starRating = document.querySelector(".stars").innerHTML;
+    let starRating = document.querySelector(".stars").innerHTML;
     //showing move, rating, time on modal
     document.getElementById("finalMove").innerHTML = numMoves;
     document.getElementById("starRating").innerHTML = starRating;
