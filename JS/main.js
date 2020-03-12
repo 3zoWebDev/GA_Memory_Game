@@ -215,7 +215,8 @@ function closeModal(){
 //for player to play Again
 function playAgain(){
     modal.classList.remove("show");
-    HideCardsAndRestThegame();
+    location.reload();
+    //HideCardsAndRestThegame();
 }
 
 
