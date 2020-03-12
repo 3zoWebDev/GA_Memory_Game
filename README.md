@@ -7,7 +7,7 @@ This is a simple game built to test a users memory. There's a deck of cards with
 Match cards in less time with less moves.
 
 ## How to Play
-Load this link in your browser https://memory-game-fend.herokuapp.com/
+Load this link in your browser https://pages.git.generalassemb.ly/Abdulaziz-Alsubhi-GA/Memory_Game/
 
 ## Instructions
 * Click on a card
