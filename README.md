@@ -24,4 +24,4 @@ I manipulated the DOM with Vanilla JS, altered part of the HTML and also styled 
 
 
 ## My Wireframe 
-![Screenshot](https://git.generalassemb.ly/Abdulaziz-Alsubhi-GA/Memory_Game/blob/master/assets/img/IMG_20200312_032815.jpg)
+![Screenshot](https://github.com/3zoWebDev/GA_Memory_Game/blob/master/assets/img/IMG_20200312_032815.jpg)
